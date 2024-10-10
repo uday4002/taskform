@@ -1,0 +1,48 @@
+*{
+  margin:0px;
+}
+.App {
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container{
+  background-color:white;
+  padding:10px;
+  text-align:left;
+  border-width:1px;
+  border-radius:4px;
+  border-style:solid;
+  border-color:black;
+  max-width:600px;
+  margin:20vh;
+  background-color:skyblue;
+}
+.heading{
+  color:rgb(28, 25, 27);
+  font-size:32px;
+  font-weight:600;
+  font-family:Roboto;
+}
+.label{
+  color:black;
+  font-size:22px;
+  font-weight:bold;
+}
+.input{
+  width:350px;
+  height:30px;
+  margin-bottom:6px;
+}
+.button{
+  background-color: blue;
+  color:white;
+  font-size:20px;
+  border-radius:3px;
+  border-width:0px;
+  height:40px;
+  margin-bottom:10px;
+}

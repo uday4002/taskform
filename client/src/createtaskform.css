@@ -1,0 +1,297 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+}
+.createtask-home-container{
+    min-height:100vh;
+    padding:20px;
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+}
+.createtask-button{
+    background-color:#4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self:flex-end;
+}
+.createtask-button:hover{
+    background-color: #45a049;
+}
+.showtasks-buttons{
+    background-color:#4957b4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right:10px;
+    min-width:200px;
+}
+.showtasks-buttons{
+    background-color: #5c72a5;
+}
+.tasks-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.task-card{
+    border:1px solid black;
+    background-color: rgb(254, 250, 250);
+    padding:10px;
+    margin:10px;
+    border-radius:8px;
+    min-width:265px;
+    max-width:270px;
+    min-height:180px;
+}
+.list-item{
+    list-style-type:none;
+}
+.span-ele{
+    font-size:22px;
+    font-weight:bold;
+    color:#446e9e;
+}
+.span-com{
+    font-size:20px;
+    color:#2d2a2e;
+    font-style:italic;
+}
+.span-com-desc{
+    font-size:20px;
+    min-height:90px;
+}
+.task-edit-button{
+    background-color:#4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self:flex-end;
+    margin-right:10px;
+}
+.task-edit-button{
+    background-color: #45a049;
+}
+.task-delete-button{
+    background-color: rgb(241, 11, 11);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.task-delete-button{
+    background-color: rgb(245, 48, 48);
+}
+.align-task-card-buttons{
+    text-align: end;
+}
+.createtaskform-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.createtaskform-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.createtaskform-discard-button{
+    background-color: rgb(241, 11, 11);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.createtaskform-discard-button:hover{
+    background-color: rgb(245, 48, 48);
+}
+.align-discard-button{
+    display:flex;
+    justify-content:flex-end;
+}
+.createtaskform-label{
+    font-weight:bold;
+    font-size:18px;
+    margin-bottom:6px;
+}
+.createtaskform-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.createtaskform-input-textarea{
+    resize:vertical;
+}
+.createtaskform-fields{
+    margin-top:10px;
+    margin-bottom:4px;
+    padding:10px;
+    border-radius:4px;
+}
+
+.createtaskform-start-button{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+.createtaskform-stop-button {
+    background-color: rgb(241, 11, 11);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+.createtaskform-start-button:hover{
+    background-color: #45a049;
+}
+.createtaskform-stop-button:hover {
+    background-color: rgb(245, 48, 48);
+}
+.createtaskform-voice-status{
+    color:rgb(10, 157, 243);
+    font-size:20px;
+    font-weight:bold;
+}
+.createtaskform-audio{
+    margin-top:12px;
+}
+.createtaskform-image-message{
+    color:red;
+}
+.createtaskform-fileuploader{
+    margin-top:10px;
+    width:96%;
+    margin-bottom:4px;
+}
+.createtask-image-info{
+    margin-top:8px;
+}
+.createtaskform-images-container{
+    display:flex;
+}
+.createtaskform-image-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.createtaskform-image{
+    height:100px;
+    width:140px;
+    margin:10px;
+    border:1px solid black;
+}
+.createtaskform-image-delete-button{
+    background-color: rgb(241, 11, 11);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.createtaskform-image-delete-button:hover{
+    background-color: rgb(231, 59, 59);
+}
+.createtaskform-image-list-item{
+    list-style-type:none;
+}
+.createtask-image-length-info{
+    color:rgb(222, 85, 27);
+    font-weight:600;
+    font-size:20px;
+}
+
+.custom-calendar {
+    width: 300px; 
+    min-height: 285px; 
+    margin-top:4px;
+    border-radius:4px;
+}
+.createtaskform-choose-from-calender{
+    background-color: rgb(11, 180, 241);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight:bold;
+}
+.createtaskform-choose-from-calender:hover{
+    background-color: rgb(43, 184, 235);
+}
+.createtaskform-date-format{
+    margin-top:4px;
+    font-size:16px;
+    font-weight:600;
+}
+.createtaskform-date-format-span{
+    color:rgb(225, 8, 8);
+    font-weight:bold;
+}
+.createtaskform-employees-select-list {
+    width:100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-top:4px;
+}
+.createtaskform-employee-card {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.createtaskform-employee {
+    margin-right: 8px;
+    list-style-type: none;
+    margin-left:-35px;
+}
+.createtaskform-icon {
+    cursor: pointer;
+    color: #f44336;
+}
+.createtaskform-icon:hover {
+    color: #d32f2f;
+}
+.createtaskform-submit-button{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-left:10px;
+}
+.createtaskform-submit-button:hover{
+    background-color: #45a049;
+}
